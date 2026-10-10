@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf("Odd-True"? n&1==1 :"Odd-False");
+    //odd=true,even=false
+    return 0;
+}
